@@ -64,6 +64,6 @@ meltData <- melt(mergeData,id = c("subjectID","ActivityID","ActivityLabel"),meas
 ## 5) Find the average of each variable for each activity & each subject
 # create Tidy dataset; use dcast() function to apply mean() to dataset
 # subjectID & Activity broken down by the averaged variables
-tidyData <- dcast(meltData, subject+ActivityLabel ~ variable, mean)
+tidyData <- dcast(meltData, subjectID+ActivityLabel ~ variable, mean)
 
-write.csv(tidyData, file="./tidy_data.csv", row.names=FALSE)
+write.table(tidyData, file="./tidy_data.txt", row.names=FALSE)

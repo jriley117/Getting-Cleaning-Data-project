@@ -19,5 +19,5 @@ You should create one R script called `run_analysis.R` that does the following:
 4. Set this folder as your working directory using the ```setwd()``` function in RStudio.
 5. Install the `data.table` package from CRAN
 6. Source the script in R ```source("run_analysis.R")```
-7. The script will generate a new file ```tiny_data.csv``` in your working directory.
+7. The script will generate a new file ```tiny_data.txt``` in your working directory.
 
