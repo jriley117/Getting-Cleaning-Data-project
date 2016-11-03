@@ -1,4 +1,4 @@
-# "Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
 
 ## Course Project
 The course project for "Getting and Cleaning Data" was to load the ["Human Activity Recognition Using Smartphones" dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and output a new, tidy dataset. The assignment was as follows:
@@ -19,5 +19,5 @@ You should create one R script called `run_analysis.R` that does the following:
 4. Set this folder as your working directory using the ```setwd()``` function in RStudio.
 5. Install the `data.table` package from CRAN
 6. Source the script in R ```source("run_analysis.R")```
-7. The script will generate a new file ```tiny_data.txt``` in your working directory.
+7. The script will generate a new file ```tiny_data.csv``` in your working directory.
 
